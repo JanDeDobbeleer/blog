@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/janjoris
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://herebedragons.io
+  * I am janjoris (https://keybase.io/janjoris) on keybase.
+  * I have a public key with fingerprint 4F65 67CE 650F 52C4 570D  5E9F 0864 07CE F699 3303
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101f1d96de9fc10c737c91e669b56d2fbe967597564755fdf4005d39b774db1e7b40a",
+            "fingerprint": "4f6567ce650f52c4570d5e9f086407cef6993303",
+            "host": "keybase.io",
+            "key_id": "086407cef6993303",
+            "kid": "0101f1d96de9fc10c737c91e669b56d2fbe967597564755fdf4005d39b774db1e7b40a",
+            "uid": "6284ba91df4762b169f6700104d2cd19",
+            "username": "janjoris"
+        },
+        "revoke": {
+            "sig_ids": [
+                "513bb465f33183d748d4331d7915f37144b842c81fbe09cccb946af5a6822a510f"
+            ]
+        },
+        "service": {
+            "hostname": "herebedragons.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1477907880,
+    "expire_in": 157680000,
+    "prev": "97d568fa87912e32bb653515106ba90401fa3ad70754f93628ac2257f4bebc42",
+    "seqno": 14,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.58
+Comment: https://keybase.io/crypto
+
+yMJzAnicrVJbaBVHGD6xNmqwNWqCxWKhKxIv8TCzO5ed81BBpRWpCrWxmliPOzsz
+cT26e7q7J/FwGhPR0ILakhbRF5EqlqBYvBZSgzUqYtrSEHoJfWglNlXES1AsFbzO
+RvvU187LzPzz/d/3zTdz4aUXUhVl6XTbtL8mfHWi7Pue+4XUyinVnSWDB6JoZEpG
+To5McoOQUZzNecLIGAACqKBgREimXAhcalGXQUkI45gIU3HJCMWMYoIoxkooBAAW
+FuOUIsGhpBwBx6g1lOc3yjAfen6saZEimFBXEgwUNl2EKRBYKwCbIKDrijBmWcDS
+jeuCKOnQ5rgTybQX6JreZJ/Z+y/+f/ZdGKEjpo24w6CGUWJySJgiFGgRJExXQJYA
+Ixn6zkap0esdf30QepHRUmuEsinIySTXyGvUpiMj02BgaHGOCFaWBW1LUGQLpJeC
+MqhrFCLEbWS6NtQ2AXNdlzNEHIUdYpumgyFQxvuaWys2ee4IeZLSc/V1MpRcitBp
+DPzoWV75MIgDN9iQnMZxPsokzuJiPoE3S559TpTlni/0O+mOJhlGXuAbGaiRbuwl
+zBBRygC1bVBryE15L5RZL0FgSmygR6IjmzQlowITWzm2vo8pLZNzgi0MtW+iQwRI
+P41jOYICipFilg7XcU0TU4W45C4yjeRqH/hBIql9Oo2aU6fnO3EhlEbLubOrR6fK
+KlLlL45KPnCqYlzlv9963v4xD8f3FK+l4y3310zqQZtn/fjtazPGLhw7tGOKWfvI
+axnq47evRAduTj4v96/ob617uxxn467crcUPm1tvDWzbc+j0RVHCS6YWju76+uST
+jjfWNKza9/H4nR9OmvPz4brgm8qz247X/7322PSqw7NPTTzS8IScPLEXzkwNzC8N
+/bb9rV8u+2pquazs/+HMsDNxXvvrHbt3DD54Z/vGP1YNvVzd9fnojl/TF4bfffNo
+75X07Xxf9e81ze3ip+/uDs/vul66W/dY3Nu7+6NNSwcG5773xb1Xr7YdbFtbU2n3
+phbeWJT78xU5o/jPna31s1s+WVxY9mlVQ7FrsLW3++Ly7sn5rV+2V5Vf6vxswfKB
+3FM3O1uz
+=uxUV
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/janjoris
+
+==================================================================

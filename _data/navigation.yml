@@ -1,0 +1,10 @@
+# main links links
+main:
+  - title: "automation"
+    url: /automation
+  - title: "dev"
+    url: /dev
+  - title: "process"
+    url: /process
+  - title: "people"
+    url: /people

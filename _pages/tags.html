@@ -1,0 +1,19 @@
+---
+title: "tag"
+layout: archive
+sitemap: false
+author: Jan De Dobbeleer
+author_profile: true
+permalink: /tags/
+---
+
+{% for tag in site.tags %}
+    <div class="catbloc search__url" id="{{ tag | first | remove:' ' }}" name="{{ tag | first | remove:' ' }}">
+        <h2>{{ tag | first }}</h2> 
+        {% for posts in tag %}             
+            {% for post in posts %}
+                {% include archive-single.html %}
+            {% endfor %}
+        {% endfor %} 
+    </div>
+{% endfor %}
