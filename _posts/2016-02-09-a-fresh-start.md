@@ -14,4 +14,4 @@ But, I'm moving ahead of myself. The reason I gave life to this blog is to share
 
 So, let this be a spot where I share tools, code, ideas, ways of working, things that inspire me and show how going against the stream can make you stronger.
 
-See you at the <a href="http://herebedragons.io/?p=656" target="_blank">first post</a>, or maybe you already missed that one?
+See you at the <a href="http://www.herebedragons.io/?p=656" target="_blank">first post</a>, or maybe you already missed that one?

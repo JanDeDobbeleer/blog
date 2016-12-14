@@ -6,7 +6,7 @@ category: automation
 tags: [app, bamboo, cd, ci, cli, command line, continuous, delivery, integration, jenkins, make, makefile, powershell, psake, store, uwp, windows]
 ---
 
-> This is Part II of "Building Windows Store apps automatically", in case you haven't read <a href="http://herebedragons.io/building-windows-store-apps-automatically-part-i-introduction" target="_blank">Part I</a> yet, please do so before reading this post. The source code of this series can be found on Github.
+> This is Part II of "Building Windows Store apps automatically", in case you haven't read <a href="http://www.herebedragons.io/building-windows-store-apps-automatically-part-i-introduction" target="_blank">Part I</a> yet, please do so before reading this post. The source code of this series can be found on Github.
 > 
 > <a class="github_link" href="https://github.com/JanJoris/psake-example" target="_blank" >Source code</a>
 
@@ -128,4 +128,4 @@ The entire `psakefile.ps1` now looks like this:
 
 {% gist 6666614e351ffe479fba850777da7334 %}
 
-Join me in <a href="http://herebedragons.io/building-windows-store-apps-automatically-part-iii-continuous-integration" target="_blank">Part III</a> where I will take you into the depths of testing and working towards proper continuous integration.
+Join me in <a href="http://www.herebedragons.io/building-windows-store-apps-automatically-part-iii-continuous-integration" target="_blank">Part III</a> where I will take you into the depths of testing and working towards proper continuous integration.

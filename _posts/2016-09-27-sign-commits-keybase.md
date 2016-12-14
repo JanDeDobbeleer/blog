@@ -76,7 +76,7 @@ Let's tell git to use our GPG key to sign the commits and sign all commits by de
 
 Try to sign a commit and push it to GitHub. The first time, GnuPG will prompt for the password. Once entered, it will be stored in memory for this session so we don't have to provide it going forward. If all went according to plan, you can now see your verified commit in GitHub. You can click on the `Verified` button to see more information about the signature.
 
-<img src="https://herebedragons.io/images/verified.png" alt="verified" width="600" class="alignnone size-medium wp-image-1197" />
+<img src="https://www.herebedragons.io/images/verified.png" alt="verified" width="600" class="alignnone size-medium wp-image-1197" />
 
 If you want to see the signature of the commit using the CLI (assuming it's the one on top of your history), use `git log HEAD --show-signature -1` to display the same (and more) information you saw on GitHub.
 

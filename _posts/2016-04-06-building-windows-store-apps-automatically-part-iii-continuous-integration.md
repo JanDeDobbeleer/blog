@@ -6,7 +6,7 @@ category: automation
 tags: [app, bamboo, cd, ci, cli, command line, continuous, delivery, integration, jenkins, make, makefile, powershell, psake, store, uwp, windows]
 ---
 
-> This is Part III of "Building Windows Store apps automatically", in case you haven't read <a href="http://herebedragons.io/building-windows-store-apps-automatically-part-i-introduction" target="_blank">Part I</a> or <a href="http://herebedragons.io/building-windows-store-apps-automatically-part-ii-building" target="_blank">Part II</a> yet, please do so before reading this post. The source code of this series can be found on Github.
+> This is Part III of "Building Windows Store apps automatically", in case you haven't read <a href="http://www.herebedragons.io/building-windows-store-apps-automatically-part-i-introduction" target="_blank">Part I</a> or <a href="http://www.herebedragons.io/building-windows-store-apps-automatically-part-ii-building" target="_blank">Part II</a> yet, please do so before reading this post. The source code of this series can be found on Github.
 > 
 > <a class="github_link" href="https://github.com/JanJoris/psake-example" target="_blank" >Source code</a>
 
@@ -76,4 +76,4 @@ To start, any previous output that was left on the server has to be deleted. Eve
     .\psake.ps1 .\psakefile.ps1 Validate -properties @{"solutionFileName"="Dummy.sln";"build_platform"="x86";"configuration"="Release";"project_name"="Dummy.UWP";}
     
 
-Now that we have building and testing configured, it is possible to set up a complete CI instance with just one Powershell line in our CI tool. In addition to that, building the app has been decentralized from Visual Studio and can be run by everyone from the command line to provide the same result. In <a href="http://herebedragons.io/building-windows-store-apps-automatically-part-iv-continuous-delivery" target="_blank">Part IV</a>, we will take it one step further and work towards Continuous Delivery.
+Now that we have building and testing configured, it is possible to set up a complete CI instance with just one Powershell line in our CI tool. In addition to that, building the app has been decentralized from Visual Studio and can be run by everyone from the command line to provide the same result. In <a href="http://www.herebedragons.io/building-windows-store-apps-automatically-part-iv-continuous-delivery" target="_blank">Part IV</a>, we will take it one step further and work towards Continuous Delivery.

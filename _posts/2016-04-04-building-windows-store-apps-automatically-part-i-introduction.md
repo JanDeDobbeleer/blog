@@ -9,9 +9,9 @@ tags: [app, bamboo, cd, ci, cli, command line, continuous, delivery, integration
 When it comes to automating your Windows Store app builds, little resources are found when you need a setup outside of Microsoft's comfortable environment. Let's say your team uses Jenkins or Bamboo as a CI tool and you want to join in to build and test your app there too but you are faced with a few obstacles. How do we tackle store association? What about versioning? Can we run our unit tests from command line? Although none of these are hard to overcome, it does require searching through **unknown depths of MSDN documentation**. The good news is, I did that for you. So, without further ado, here's a series of blogposts on how to setup automated builds with the proper tools. I will split this in 3 parts:
 
 *   Part I: Introduction
-*   <a href="http://herebedragons.io/building-windows-store-apps-automatically-part-ii-building" target="_blank">Part II</a>: Building
-*   <a href="http://herebedragons.io/building-windows-store-apps-automatically-part-iii-continuous-integration" target="_blank">Part III</a>: Continuous Integration
-*   <a href="http://herebedragons.io/building-windows-store-apps-automatically-part-iv-continuous-delivery" target="_blank">Part IV</a>: Continuous Delivery
+*   <a href="http://www.herebedragons.io/building-windows-store-apps-automatically-part-ii-building" target="_blank">Part II</a>: Building
+*   <a href="http://www.herebedragons.io/building-windows-store-apps-automatically-part-iii-continuous-integration" target="_blank">Part III</a>: Continuous Integration
+*   <a href="http://www.herebedragons.io/building-windows-store-apps-automatically-part-iv-continuous-delivery" target="_blank">Part IV</a>: Continuous Delivery
 
 The source code of this series can be found on Github.
 
@@ -25,7 +25,7 @@ To start with psake, download the source code from Github and place the `psake.p
 
 {% gist f0aeb8e0b30e554d51e1334fce9109a2 %}
 
-The template consists of several parts. First off you have `Properties` where you add variables which can be accessed by all of your tasks. Think of paths, build configurations, etc. We will talk more about that in <a href="http://herebedragons.io/building-windows-store-apps-automatically-part-ii-building" target="_blank">Part II</a>. The `VerifyBuildProperties`, `VerifyTestProperties` and `VerifyVersionProperties` tasks are used to validate the `Properties` before starting another task if needed. Psake is made so that whenever a task fails, the build will fail. Pretty useful when you need to find out what went wrong. You can find the output in the logs of your CI tool, or prompt when you build manually in your console using psake.
+The template consists of several parts. First off you have `Properties` where you add variables which can be accessed by all of your tasks. Think of paths, build configurations, etc. We will talk more about that in <a href="http://www.herebedragons.io/building-windows-store-apps-automatically-part-ii-building" target="_blank">Part II</a>. The `VerifyBuildProperties`, `VerifyTestProperties` and `VerifyVersionProperties` tasks are used to validate the `Properties` before starting another task if needed. Psake is made so that whenever a task fails, the build will fail. Pretty useful when you need to find out what went wrong. You can find the output in the logs of your CI tool, or prompt when you build manually in your console using psake.
 
 The other task are rather self explanatory, we have the usual suspects:
 
@@ -54,4 +54,4 @@ to build the default task or
 
 to build the Beta app.
 
-With all this set up we are now ready to create the actual implementations of the tasks in our `psakefile.ps1` file. Join me in <a href="http://herebedragons.io/building-windows-store-apps-automatically-part-ii-building" target="_blank">Part II</a> to find out how to tackle this.
+With all this set up we are now ready to create the actual implementations of the tasks in our `psakefile.ps1` file. Join me in <a href="http://www.herebedragons.io/building-windows-store-apps-automatically-part-ii-building" target="_blank">Part II</a> to find out how to tackle this.

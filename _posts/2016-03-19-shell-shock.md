@@ -6,7 +6,7 @@ category: code
 tags: [.NET, agnoster, chocolatey, cli, command line, conemu, git, github, posh-git, powershell, ps-agnoster, shell, theme, tmux, windows, zsh]
 ---
 
-> PS-Agnoster has been converted to Oh-My-Posh!. The Agnoster theme is now part of a family of themes which can be easily extended with your own. Have a <a href="https://herebedragons.io/oh-my-posh/" target="_blank">look</a>.
+> PS-Agnoster has been converted to Oh-My-Posh!. The Agnoster theme is now part of a family of themes which can be easily extended with your own. Have a <a href="https://www.herebedragons.io/oh-my-posh/" target="_blank">look</a>.
 
 Last week I was messing around with Linux as I needed to be able to use a Windows unfriendly tool. Given that it was 7 years ago I seriously used Linux, I asked some colleagues to help me with the setup. What I saw blew my mind. They all had nicely pimped out terminals, allowing them to easily navigate between different tabs and windows, even windows within windows. I couldn't wait to setup all that stuff on my machine.
 

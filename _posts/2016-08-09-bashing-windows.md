@@ -22,7 +22,7 @@ Once rebooted, open a PowerShell prompt and type `lxrun /install /y` to install 
 
 I quickly got annoyed by the default console Bash uses. Just like PowerShell, it's an annoying little bugger that lacks features, even with the latest improvements. I moved Bash to ConEmu to have more flexibility in customization. You can install ConEmu on Windows using <a href="https://chocolatey.org/" target="_blank">chocolatey</a>: `choco install conemu`. Add a task through the settings with a proper name (mine is Ubuntu Bash) and enter `C:\Windows\System32\Bash.exe ~` in the commands window.
 
-<img src="https://herebedragons.io/images/conemusettings.png" alt="conemusettings" width="600" class="alignnone size-medium wp-image-1132" />
+<img src="https://www.herebedragons.io/images/conemusettings.png" alt="conemusettings" width="600" class="alignnone size-medium wp-image-1132" />
 
 While messing around with Bash, I noticed <a href="https://github.com/JanJoris/oh-my-posh" target="_blank">oh-my-posh</a> had it's color settings a bit wonky. In order to get everything aligned and looking crisp, I had to <a href="https://github.com/JanJoris/oh-my-posh/commit/bb231e51a3f56928ef2b6ed5967e13d1f3de1cca" target="_blank">adjust those</a>. If you want my color scheme for you convenience, you find it <a href="https://gist.github.com/JanJoris/71c9f1361a562f337b855b75d7bbfd28" target="_blank">here</a>. The font I use is Meslo LG M for Powerline, there is a great <a href="" target="_blank">repository</a> containing all the Powerline fonts and a .ps1 file to install. Or, could absuse PsGet and install them:
 
@@ -86,4 +86,4 @@ Lastly, we need to tell ZSH to use the ls colors for completion, add the followi
 
 Restart the Bash shell and the result should look like this. I have almost the same UI on PowerShell (left) and Bash (right), which makes it nice to work with. Who said we can't have a nice console on Windows? I can't wait to mess around with it!
 
-<img src="https://herebedragons.io/images/Screenshot_18.png" alt="Screenshot_18" width="600" class="alignnone size-medium wp-image-1150" />
+<img src="https://www.herebedragons.io/images/Screenshot_18.png" alt="Screenshot_18" width="600" class="alignnone size-medium wp-image-1150" />

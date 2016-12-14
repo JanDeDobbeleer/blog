@@ -10,7 +10,7 @@ If you happen to be a Windows app developer like me, you know that it is current
 
 Before you can get started, we need to retrieve an **API key** from an account that has access to the repository. Go to your Github account settings, select Personal access tokens and press the "Generate new token" button.
 
-<img src="http://herebedragons.io/images/pat.png" width="625" class="alignnone size-medium wp-image-1132" />
+<img src="http://www.herebedragons.io/images/pat.png" width="625" class="alignnone size-medium wp-image-1132" />
 
 Once you have your API key, you can start filling out the required fields:
 
