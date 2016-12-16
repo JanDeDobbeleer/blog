@@ -5,7 +5,7 @@ title_separator          : "-"
 name                     : "Jan De Dobbeleer"
 description              : "team leading and development from the trenches"
 url                      : "https://www.herebedragons.io"
-repository               : "janjoris/janjoris.github.io"
+repository               : "janjoris/blog"
 words_per_minute         : 200
 comments:
   provider               : "disqus"
