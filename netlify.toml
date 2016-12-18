@@ -1,0 +1,6 @@
+[build]
+  publish = "_site"
+  command = "jekyll build && cp _headers _site/"
+
+[context.branch-deploy]
+  command = "jekyll build"
