@@ -49,7 +49,7 @@ analytics:
 # Site Author
 author:
   name             : "Jan De Dobbeleer"
-  avatar           : "bio-photo.jpg"
+  avatar           : "/images/bio-photo.jpg"
   bio              : "Automate or GTFO"
   location         : "Diest, Belgium"
   email            : "jan@herebedragons.io"
@@ -69,6 +69,7 @@ author:
   pinterest        :
   soundcloud       :
   stackoverflow    : "5122929/jan"
+  mastodon         : "https://mastodon.social/@janjoris"
   steam            :
   tumblr           :
   twitter          : "jan_joris"
