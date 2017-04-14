@@ -8,7 +8,7 @@ tags: [agnoster, anniversary, bash, cannonical, cli, dircolors, linux, ls, oh my
 
 Together with Window's anniversary update came the long awaited Ubuntu on Windows (Bash). In this post I will guide you trough on how to set this up so you can get a good experience and play around with it. My use case is, I want to use Bash commands and the Linux toolset on my Windows file system so I can benefit from both worlds.
 
-The only downside with Bash on Windows is that it can't interact with Windows software and vice-versa. It's important to know because it means you can't for example substitute PowerShell with Bash to maintain Windows or have a seamless experience by using Bash as your default shell. Nonetheless, it's a cool feature I really want to explore.
+> Thanks to the Creators Update, we can now also use our Windows tooling on Bash and vice-versa. This is pretty awesome as you'll be able to choose your shell and seamlessly integrate with Windows regardless of your choice.
 
 ### Installation
 
@@ -24,12 +24,9 @@ I quickly got annoyed by the default console Bash uses. Just like PowerShell, it
 
 <img src="https://www.herebedragons.io/images/conemusettings.png" alt="conemusettings" width="600" class="alignnone size-medium wp-image-1132" />
 
-While messing around with Bash, I noticed <a href="https://github.com/JanJoris/oh-my-posh" target="_blank">oh-my-posh</a> had it's color settings a bit wonky. In order to get everything aligned and looking crisp, I had to <a href="https://github.com/JanJoris/oh-my-posh/commit/bb231e51a3f56928ef2b6ed5967e13d1f3de1cca" target="_blank">adjust those</a>. If you want my color scheme for you convenience, you find it <a href="https://gist.github.com/JanJoris/71c9f1361a562f337b855b75d7bbfd28" target="_blank">here</a>. The font I use is Meslo LG M for Powerline, there is a great <a href="" target="_blank">repository</a> containing all the Powerline fonts and a .ps1 file to install. Or, could absuse PsGet and install them:
+While messing around with Bash, I noticed <a href="https://github.com/JanJoris/oh-my-posh" target="_blank">oh-my-posh</a> had it's color settings a bit wonky. In order to get everything aligned and looking crisp, I had to <a href="https://github.com/JanJoris/oh-my-posh/commit/bb231e51a3f56928ef2b6ed5967e13d1f3de1cca" target="_blank">adjust those</a>. If you want my color scheme for you convenience, you find it <a href="https://gist.github.com/JanJoris/71c9f1361a562f337b855b75d7bbfd28" target="_blank">here</a>. The font I use is Meslo LG M, there is a great <a href="https://github.com/ryanoasis/nerd-fonts" target="_blank">repository</a> containing a wide variety of extended Powerline fonts.
 
-    $ Install-Module -ModuleUrl https://github.com/powerline/fonts/archive/master.zip
-    
-
-Getting started with Bash also means we'll have to make sure it's setup properly. Let's create the root password before doing anything else. Start Bash using ConEmu or press WIN and type `Bash` to see and start `Bash on Ubuntu on Windows`. If all went according to plan you should be logged in as the user you created which is also added to the sudoers file, meaning we can sudo all over the place (rejoice). Add a root password by typing `sudo passwd`. First, enter the password you created for your user, then enter a root password when you see `Enter new UNIX password:`. Well done, you can now log on as root if needed.
+Getting started with Bash also means we have to make sure it's setup properly. Let's create the root password before doing anything else. Start Bash using ConEmu or press WIN and type `Bash` to see and start `Bash on Ubuntu on Windows`. If all went according to plan you should be logged in as the user you created which is also added to the sudoers file, meaning we can sudo all over the place (rejoice). Add a root password by typing `sudo passwd`. First, enter the password you created for your user, then enter a root password when you see `Enter new UNIX password:`. Well done, you can now log on as root if needed.
 
 Just like <a href="http://www.hanselman.com/blog/VIDEOHowToRunLinuxAndBashOnWindows10AnniversaryUpdate.aspx" target="_blank">Scott Hanselman</a>, let's start by updating everything we have before continuing. Type `sudo apt update`, enter your password and let it run. Once done we can install all the goodies needed to have a cool prompt. Linux has the advantage of having a lot of great CLI improvements compared to Windows. I created oh-my-posh because I got inspired by tools like <a href="http://zsh.sourceforge.net/" target="_blank">ZSH</a> and <a href="https://github.com/robbyrussell/oh-my-zsh" target="_blank">oh-my-zsh</a> so obviously, that's what I'm going to install before continuing. Start off by installing git, ZSH and oh-my-zsh.
 
@@ -86,4 +83,4 @@ Lastly, we need to tell ZSH to use the ls colors for completion, add the followi
 
 Restart the Bash shell and the result should look like this. I have almost the same UI on PowerShell (left) and Bash (right), which makes it nice to work with. Who said we can't have a nice console on Windows? I can't wait to mess around with it!
 
-<img src="https://www.herebedragons.io/images/Screenshot_18.png" alt="Screenshot_18" width="600" class="alignnone size-medium wp-image-1150" />
+<img src="https://www.herebedragons.io/images/bashing_windows.png" alt="Screenshot_18" width="600" class="alignnone size-medium wp-image-1150" />
