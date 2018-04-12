@@ -1,12 +1,12 @@
 /*
   X-XSS-Protection: 1
   x-frame-options: SAMEORIGIN
-  content-security-policy: default-src 'self'; font-src 'self' d33wubrfki0l68.cloudfront.net *.bootstrapcdn.com fonts.gstatic.com; img-src 'self' d33wubrfki0l68.cloudfront.net *.disquscdn.com *.disqus.com *.shields.io *.appveyor.com *.facebook.com *.githubusercontent.com *.google-analytics.com *.w.org *.gravatar.com; media-src 'self'; script-src 'unsafe-eval' 'unsafe-inline' 'self' d33wubrfki0l68.cloudfront.net platform.twitter.com *.cloudflare.com *.facebook.net *.github.com *.google-analytics.com; style-src 'unsafe-inline' 'self' d33wubrfki0l68.cloudfront.net *.disquscdn.com *.disqus.com *.bootstrapcdn.com fonts.googleapis.com *.github.com; child-src disqus.com *.facebook.com *.youtube.com
+  content-security-policy: default-src 'self'; font-src 'self' d33wubrfki0l68.cloudfront.net *.bootstrapcdn.com fonts.gstatic.com; img-src 'self' d33wubrfki0l68.cloudfront.net *.disquscdn.com *.disqus.com *.shields.io *.appveyor.com *.facebook.com *.githubusercontent.com *.w.org *.gravatar.com; media-src 'self'; script-src 'unsafe-eval' 'unsafe-inline' 'self' d33wubrfki0l68.cloudfront.net platform.twitter.com *.cloudflare.com *.facebook.net *.github.com; style-src 'unsafe-inline' 'self' d33wubrfki0l68.cloudfront.net *.disquscdn.com *.disqus.com *.bootstrapcdn.com fonts.googleapis.com *.github.com; child-src disqus.com *.facebook.com *.youtube.com
   X-Welcome-Stanger: Hi there, welcome to my blog, make sure to follow me!
-  X-GitHub-Location: https://github.com/janjoris
+  X-GitHub-Location: https://github.com/jandedobbeleer
   X-StackOverflow-Location: https://www.stackoverflow.com/users/5122929/jan
-  X-Keybase-Location: https://keybase.io/janjoris
-  X-Twitter-Location: https://twitter.com/jan_joris
+  X-Keybase-Location: https://keybase.io/jandedobbeleer
+  X-Twitter-Location: https://twitter.com/jandedobbeleer
   X-Facebook-Location: https://www.facebook.com/janjoris
   X-LinkedIn-Location: https://www.linkedin.com/in/jandedobbeleer
-  X-Instagram-Location: https://instagram.com/jan__joris
+  X-Instagram-Location: https://instagram.com/jandedobbeleer
