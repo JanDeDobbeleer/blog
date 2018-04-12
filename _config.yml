@@ -39,12 +39,6 @@ twitter:
 facebook:
   username               : "janjoris"
 
-# Analytics
-analytics:
-  provider               : "google-universal"
-  google:
-    tracking_id          : "UA-23507099-1"
-
 
 # Site Author
 author:
